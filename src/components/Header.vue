@@ -124,6 +124,8 @@ export default {};
   }
 }
 .header {
+  position: relative;
+  z-index: 9;
   &-top {
     background: #ffffff;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
@@ -195,6 +197,8 @@ export default {};
   }
   &-nav {
     margin-top: 29px;
+    position: relative;
+      z-index: 9;
     &-content {
       display: flex;
       justify-content: space-between;
